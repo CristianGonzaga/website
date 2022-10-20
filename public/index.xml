@@ -1,0 +1,90 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Mi Portafolio - Cristian Gonzaga</title>
+        <link>https://github.com/CristianGonzaga/website/</link>
+        <description>My cool site. Cristian Gonzaga López</description>
+        <generator>Hugo -- gohugo.io</generator><language>es</language><managingEditor>cristiangl2430@gmail.com (Cristian Gonzaga López)</managingEditor>
+            <webMaster>cristiangl2430@gmail.com (Cristian Gonzaga López)</webMaster><lastBuildDate>Tue, 23 Aug 2022 22:16:38 -0500</lastBuildDate>
+            <atom:link href="https://github.com/CristianGonzaga/website/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>Bases de Datos para Cientificos de Datos</title>
+    <link>https://github.com/CristianGonzaga/website/posts/databases-for-data-scientists/</link>
+    <pubDate>Tue, 23 Aug 2022 22:16:38 -0500</pubDate>
+    <author>Cristian Gonzaga</author>
+    <guid>https://github.com/CristianGonzaga/website/posts/databases-for-data-scientists/</guid>
+    <description><![CDATA[En el programa especializado Databases for Data Scientists, ofrecido por la Universidad de Colorado Boulder e impartido por Alan Paradise y Di Wu, se enseña sobre el diseño de bases de datos, los fundamentos de las bases de datos, y cómo utilizar el lenguaje de consulta estructurado (SQL) para la manipulación de bases de datos. Concluye con una visión general de las tendencias futuras de las bases de datos, incluyendo las no relacionales (NoSQL) y Big Data. De tal modo que al finalizar la especialización se está preparado para diseñar y crear bases de datos relacionales (eficientes y eficaces), aunado a manipularlas utilizando SQL.]]></description>
+</item>
+<item>
+    <title>Temas avanzados y tendencias futuras en las tecnologías de bases de datos.</title>
+    <link>https://github.com/CristianGonzaga/website/posts/advanced-topics_future-trends_database-technologies/</link>
+    <pubDate>Tue, 23 Aug 2022 14:46:33 -0500</pubDate>
+    <author>Cristian Gonzaga</author>
+    <guid>https://github.com/CristianGonzaga/website/posts/advanced-topics_future-trends_database-technologies/</guid>
+    <description><![CDATA[En el curso Advanced Topics and Future Trends in Database Technologies, ofrecido por la Universidad de Colorado Boulder e impartido por Di Wu y Alan Paradise, se cubren algunas de las áreas más profundas y avanzadas de las tecnologías de bases de datos, seguidas de una mirada al futuro del software de bases de datos y hacia dónde se dirige la industria.]]></description>
+</item>
+<item>
+    <title>Métricas de negocio para empresas basadas en datos</title>
+    <link>https://github.com/CristianGonzaga/website/posts/business-metrics_data-driven-companies/</link>
+    <pubDate>Thu, 11 Aug 2022 17:21:54 -0500</pubDate>
+    <author>Cristian Gonzaga</author>
+    <guid>https://github.com/CristianGonzaga/website/posts/business-metrics_data-driven-companies/</guid>
+    <description><![CDATA[En el curso Business Metrics for Data-Driven Companies, ofrecido por la Universidad Duke e impartido por Daniel Egger, se imparten prácticas sobre cómo utilizar la analítica de datos para hacer que cualquier empresa sea más competitiva y más rentable, reconociendo las métricas empresariales más críticas y distinguirlas de los meros datos.]]></description>
+</item>
+<item>
+    <title>Lenguaje de Consulta Estructurado (SQL)</title>
+    <link>https://github.com/CristianGonzaga/website/posts/structured-query-language/</link>
+    <pubDate>Wed, 10 Aug 2022 15:38:04 -0500</pubDate>
+    <author>Cristian Gonzaga</author>
+    <guid>https://github.com/CristianGonzaga/website/posts/structured-query-language/</guid>
+    <description><![CDATA[En el curso The Structured Query Language (SQL), ofrecido por la Universidad de Colorado Boulder e impartido por Alan Paradise, se cubren aspectos referentes al lenguaje de consulta estructurado (SQL, por sus siglas en inglés). Revisión de los orígenes de los lenguajes y sus fundamentos conceptuales. Sin embargo, se centra en el aprendizaje de todos los comandos estándar de SQL, su sintaxis y cómo utilizar estos comandos para llevar a cabo el análisis de los datos dentro de una base de datos relacionales. Finalmente, aborda los comandos DDL ('Data Definition Language') y DML ('Data Manipulation Language') necesarios para creación, manipulación y mantenimiento de la base de datos.]]></description>
+</item>
+<item>
+    <title>Diseño de Bases de Datos Relacionales</title>
+    <link>https://github.com/CristianGonzaga/website/posts/relational-database-design/</link>
+    <pubDate>Sun, 31 Jul 2022 15:17:21 -0500</pubDate>
+    <author>Cristian Gonzaga</author>
+    <guid>https://github.com/CristianGonzaga/website/posts/relational-database-design/</guid>
+    <description><![CDATA[En el curso Relational Database Design, ofrecido por la Universidad de Colorado Boulder e impartida por Di Wu se cubren la serie de pasos para crear una base de datos. Comienzan desde una abstracción de ideas hasta la implementación de una base de datos relacional.]]></description>
+</item>
+<item>
+    <title>Comparte tu Conocimiento</title>
+    <link>https://github.com/CristianGonzaga/website/posts/comparte-tu-conocimiento/</link>
+    <pubDate>Fri, 29 Jul 2022 20:43:01 -0500</pubDate>
+    <author>Cristian Gonzaga</author>
+    <guid>https://github.com/CristianGonzaga/website/posts/comparte-tu-conocimiento/</guid>
+    <description><![CDATA[En México, existe una gran deserción escolar a nivel preparatoria. Para preparar a los alumnos a tener un mejor puesto laboral, el proyecto Comparte tu Conocimiento impulsado por el H. Ayuntamiento de Atizapán de Zaragoza - Dirección de educación busca dar asesorías de las diferentes materias de preparatoria abierta a adultos y jóvenes del municipio.]]></description>
+</item>
+<item>
+    <title>Cómo funcionan las cosas: Una Introducción a la Física</title>
+    <link>https://github.com/CristianGonzaga/website/posts/how-things-work_an-introduction-physics/</link>
+    <pubDate>Fri, 22 Jul 2022 21:18:14 -0500</pubDate>
+    <author>Cristian Gonzaga</author>
+    <guid>https://github.com/CristianGonzaga/website/posts/how-things-work_an-introduction-physics/</guid>
+    <description><![CDATA[El curso How Things Work: An Introduction to Physics ofrecido por la Universidad de Virginia e impartido por Louis A. Bloomfield proporciona una introducción accesible a la física empleando objetos de uso cotidiano para explicar los conceptos físicos fundamentales de la vida cotidiana.]]></description>
+</item>
+<item>
+    <title>Ética en Ciencia de Datos</title>
+    <link>https://github.com/CristianGonzaga/website/posts/data-science-ethics/</link>
+    <pubDate>Thu, 21 Jul 2022 20:25:23 -0500</pubDate>
+    <author>Cristian Gonzaga</author>
+    <guid>https://github.com/CristianGonzaga/website/posts/data-science-ethics/</guid>
+    <description><![CDATA[El curso exploró el impacto de la ciencia de datos en la sociedad moderna y los principios de equidad, responsabilidad y transparencia. Además, examinó las implicaciones éticas y de privacidad de la recopilación y gestión de grandes conjuntos de datos. Finalmente, se hizo enfásis sobre a quién pertenecen los datos, cómo valorar la privacidad, cómo recibir el consentimiento informado y qué significa ser justo. ]]></description>
+</item>
+<item>
+    <title>Optimización de Rutas de Coppel</title>
+    <link>https://github.com/CristianGonzaga/website/posts/optimizacion-de-rutas-coppel/</link>
+    <pubDate>Fri, 06 May 2022 22:19:51 -0500</pubDate>
+    <author>Cristian Gonzaga</author>
+    <guid>https://github.com/CristianGonzaga/website/posts/optimizacion-de-rutas-coppel/</guid>
+    <description><![CDATA[Con el crecimiento acelerado del e-commerce en años recientes, se ha vuelto crítico para las empresas adaptarse al nuevo panorama. Cada vez es más común ordenar productos en línea, y las empresas en cuestión deben encontrar soluciones de logística adecuadas para procurar que sus productos lleguen a los clientes. Para lo anterior, la eficiencia y la  optimización son clave, dado que las empresas buscan minimizar costos de distribución y tiempos de entrega, y al mismo tiempo cumplir con las expectativas de los clientes. Estas estrategias de logística involucran encontrar rutas óptimas, algo que puede estudiarse a partir de problemas como el Problema del Agente Viajero y el Problema de Enrutamiento de Vehículos con Capacidades (MVRP), los cuales son aplicaciones de la Programación Lineal. El presente trabajo aplica los conceptos anteriores, así como algoritmos de Machine Learning, para resolver un problema de rutas a la empresa Grupo Coppel, desde uno de sus centros de distribución en Azcapotzalco, Ciudad de México.]]></description>
+</item>
+<item>
+    <title>Análisis QS World Ranking</title>
+    <link>https://github.com/CristianGonzaga/website/posts/qs_world-ranking/</link>
+    <pubDate>Fri, 18 Mar 2022 21:55:27 -0500</pubDate>
+    <author>Cristian Gonzaga</author>
+    <guid>https://github.com/CristianGonzaga/website/posts/qs_world-ranking/</guid>
+    <description><![CDATA[Los rankings universitarios son listas que evalúan a universidades alrededor del mundo basándose en diferentes métricas. Para estudiantes potenciales, los rankings de universidades pueden parecer una manera relativamente sencilla de valorar la calidad de una institución, preseleccionar opciones y tomar decisiones. Para las universidades, los rankings pueden ser una herramienta de planificación, la cual permite definir estrategias y objetivos para lograr mejorar su reputación y por lo tanto la captación de alumnos.]]></description>
+</item>
+</channel>
+</rss>

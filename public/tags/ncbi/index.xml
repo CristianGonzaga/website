@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>NCBI - Etiqueta - Mi Portafolio - Cristian Gonzaga</title>
+        <link>https://github.com/CristianGonzaga/website/tags/ncbi/</link>
+        <description>NCBI - Etiqueta - Mi Portafolio - Cristian Gonzaga</description>
+        <generator>Hugo -- gohugo.io</generator><language>es</language><managingEditor>cristiangl2430@gmail.com (Cristian Gonzaga López)</managingEditor>
+            <webMaster>cristiangl2430@gmail.com (Cristian Gonzaga López)</webMaster><lastBuildDate>Fri, 30 Apr 2021 21:54:43 -0500</lastBuildDate><atom:link href="https://github.com/CristianGonzaga/website/tags/ncbi/" rel="self" type="application/rss+xml" /><item>
+    <title>Análisis de Genes Diferencialmente Expresados en el Cáncer de Colón</title>
+    <link>https://github.com/CristianGonzaga/website/posts/cancer-colon_genes-diferencialmente-expresados/</link>
+    <pubDate>Fri, 30 Apr 2021 21:54:43 -0500</pubDate>
+    <author>Cristian Gonzaga</author>
+    <guid>https://github.com/CristianGonzaga/website/posts/cancer-colon_genes-diferencialmente-expresados/</guid>
+    <description><![CDATA[Este proyecto identificó los genes involucrados en la formación de tejidos cancerosos, centrándose en los genes diferencialmente expresados en cáncer de colon en adultos de 50 a 60 años, aprovechando la inmensa cantidad de información encontrada en distintas bases de datos respecto al tema y del lenguaje de programación R.]]></description>
+</item>
+</channel>
+</rss>

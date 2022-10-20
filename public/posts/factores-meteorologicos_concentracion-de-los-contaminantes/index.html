@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Los factores meteorológicos y la concentración de los contaminantes en la atmósfera - Mi Portafolio - Cristian Gonzaga</title><meta name="Description" content="El proyecto encontró la relación entre los factores meteorológicos y la contaminación. Los datos utilizados fueron proporcionados por el Sistema de Monitoreo Atmosférico de la Zona Metropolitana de la Ciudad de México. A partir de ellos, se eligió el software R para realizar una limpieza y ordenamiento de los mismos y posteriormente generar una regresión lineal y múltiple."><meta property="og:title" content="Los factores meteorológicos y la concentración de los contaminantes en la atmósfera" />
+<meta property="og:description" content="El proyecto encontró la relación entre los factores meteorológicos y la contaminación. Los datos utilizados fueron proporcionados por el Sistema de Monitoreo Atmosférico de la Zona Metropolitana de la Ciudad de México. A partir de ellos, se eligió el software R para realizar una limpieza y ordenamiento de los mismos y posteriormente generar una regresión lineal y múltiple." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://github.com/CristianGonzaga/website/posts/factores-meteorologicos_concentracion-de-los-contaminantes/" /><meta property="og:image" content="https://github.com/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-06-11T22:20:12-05:00" />
+<meta property="article:modified_time" content="2022-10-04T22:20:12-05:00" /><meta property="og:site_name" content="Mi Portafolio - Cristian Gonzaga" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://github.com/logo.png"/>
+
+<meta name="twitter:title" content="Los factores meteorológicos y la concentración de los contaminantes en la atmósfera"/>
+<meta name="twitter:description" content="El proyecto encontró la relación entre los factores meteorológicos y la contaminación. Los datos utilizados fueron proporcionados por el Sistema de Monitoreo Atmosférico de la Zona Metropolitana de la Ciudad de México. A partir de ellos, se eligió el software R para realizar una limpieza y ordenamiento de los mismos y posteriormente generar una regresión lineal y múltiple."/>
+<meta name="application-name" content="Data Science">
+<meta name="apple-mobile-web-app-title" content="Data Science"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://github.com/CristianGonzaga/website/posts/factores-meteorologicos_concentracion-de-los-contaminantes/" /><link rel="prev" href="https://github.com/CristianGonzaga/website/posts/cancer-colon_genes-diferencialmente-expresados/" /><link rel="next" href="https://github.com/CristianGonzaga/website/posts/pl%C3%A1ticame-un-libro-o-cuento/" /><link rel="stylesheet" href="/CristianGonzaga/website/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Los factores meteorológicos y la concentración de los contaminantes en la atmósfera",
+        "inLanguage": "es",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/github.com\/CristianGonzaga\/website\/posts\/factores-meteorologicos_concentracion-de-los-contaminantes\/"
+        },"genre": "posts","keywords": "Sistema de Monitoreo Atmosférico, Ciencia de Datos, R","wordcount":  243 ,
+        "url": "https:\/\/github.com\/CristianGonzaga\/website\/posts\/factores-meteorologicos_concentracion-de-los-contaminantes\/","datePublished": "2021-06-11T22:20:12-05:00","dateModified": "2022-10-04T22:20:12-05:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Cristian Gonzaga"
+            },"description": "El proyecto encontró la relación entre los factores meteorológicos y la contaminación. Los datos utilizados fueron proporcionados por el Sistema de Monitoreo Atmosférico de la Zona Metropolitana de la Ciudad de México. A partir de ellos, se eligió el software R para realizar una limpieza y ordenamiento de los mismos y posteriormente generar una regresión lineal y múltiple."
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/CristianGonzaga/website/" title="Mi Portafolio - Cristian Gonzaga">Portafolio</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/CristianGonzaga/website/posts/"> Posts </a><a class="menu-item" href="/CristianGonzaga/website/categories/"> Categorías </a><a class="menu-item" href="/CristianGonzaga/website/about/"> Acerca de mí </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Buscar">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a><a href="javascript:void(0);" class="menu-item language" title="Selecciona el lenguage">
+                    <i class="fa fa-globe" aria-hidden="true"></i>                      
+                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/CristianGonzaga/website/posts/factores-meteorologicos_concentracion-de-los-contaminantes/" selected>Español</option><option value="/CristianGonzaga/website/en/posts/factores-meteorologicos_concentracion-de-los-contaminantes/">English</option></select>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/CristianGonzaga/website/" title="Mi Portafolio - Cristian Gonzaga">Portafolio</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Buscar">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancelar
+                    </a>
+                </div><a class="menu-item" href="/CristianGonzaga/website/posts/" title="">Posts</a><a class="menu-item" href="/CristianGonzaga/website/categories/" title="">Categorías</a><a class="menu-item" href="/CristianGonzaga/website/about/" title="">Acerca de mí</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="Selecciona el lenguage">
+                    <i class="fa fa-globe fa-fw" aria-hidden="true"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/CristianGonzaga/website/posts/factores-meteorologicos_concentracion-de-los-contaminantes/" selected>Español</option><option value="/CristianGonzaga/website/en/posts/factores-meteorologicos_concentracion-de-los-contaminantes/">English</option></select>
+                </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contenido</h2>
+            <div class="toc-content always-active" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Los factores meteorológicos y la concentración de los contaminantes en la atmósfera</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/CristianGonzaga/website/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Cristian Gonzaga</a></span>&nbsp;<span class="post-category">incluido en <a href="/CristianGonzaga/website/categories/proyectos-co-curriculares/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Proyectos Co-Curriculares</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2021-06-11">2021-06-11</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;243 palabras&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;2 minutos&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contenido</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#acerca-de">Acerca de</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h2 id="acerca-de">Acerca de</h2>
+<p>El proyecto encontró la relación entre los factores meteorológicos y la contaminación. Los datos
+utilizados fueron proporcionados por el Sistema de Monitoreo Atmosférico de la Zona Metropolitana
+de la Ciudad de México. A partir de ellos, se eligió el software R para realizar una limpieza y
+ordenamiento de los mismos y posteriormente generar una regresión lineal y múltiple.</p>
+<p>Es importante mencionar que R es un lenguaje de programación especializado en el análisis estadístico.
+Se menciona lo anterior porque R proporcionó una gran variedad de herramientas útiles para el
+respectivo tratamiento y análisis de los datos. Para lo anterior, se usaron librerías especializadas
+en el manejo y graficación de datos como: <em>tidyverse</em>, <em>dplyr</em>, <em>gapminder</em> y <em>GGally</em>. Adicionalmente,
+se generó una aplicación web local en la que el usuario puede elegir tanto la estación de estudio
+como el periodo de tiempo que se quiere visualizar, esto al emplear las librerías <em>shiny</em> y
+<em>shinydashboard</em>. Además, por medio de la aplicación, R presenta tanto las gráfica de regresión lineal
+y múltiple junto con la información estadística dependiendo de la configuración que el usuario
+desee ingresar. De tal manera que resulta útil para los usuarios, siendo una manera eficiente para
+analizar los resultados bajo diferentes circunstancia.</p>
+<p>Desarrollando así un modelo matemático que estima la concentración de partículas de
+dióxido de azufre con base en la presión atmosférica (mmHG), la temperatura
+(grados Celsius), humedad relativa (porcentaje), dirección del viento (grados) y
+velocidad del viento (metros por segundo).</p></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Actualizado el 2022-10-04</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/CristianGonzaga/website/tags/sistema-de-monitoreo-atmosf%C3%A9rico/">Sistema de Monitoreo Atmosférico</a>,&nbsp;<a href="/CristianGonzaga/website/tags/ciencia-de-datos/">Ciencia de Datos</a>,&nbsp;<a href="/CristianGonzaga/website/tags/r/">R</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Regresar</a></span>&nbsp;|&nbsp;<span><a href="/CristianGonzaga/website/">Inicio</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/CristianGonzaga/website/posts/cancer-colon_genes-diferencialmente-expresados/" class="prev" rel="prev" title="Análisis de Genes Diferencialmente Expresados en el Cáncer de Colón"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Análisis de Genes Diferencialmente Expresados en el Cáncer de Colón</a>
+            <a href="/CristianGonzaga/website/posts/pl%C3%A1ticame-un-libro-o-cuento/" class="next" rel="next" title="Pláticame un Libro o Cuento">Pláticame un Libro o Cuento<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Con la tecnología de <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.101.0">Hugo</a> | Tema - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/CristianGonzaga/website/" target="_blank">Cristian Gonzaga López</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Volver arriba">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="Ver comentarios">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery-bundle.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="/CristianGonzaga/website/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/CristianGonzaga/website/lib/lunr/lunr.es.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/copy-tex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copiar al portapapeles","maxShownLines":50},"comment":{},"lightgallery":true,"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/CristianGonzaga/website/index.json","lunrLanguageCode":"es","maxResultLength":10,"noResultsFound":"No se encontraron resultados","snippetLength":30,"type":"lunr"}};</script><script type="text/javascript" src="/CristianGonzaga/website/js/theme.min.js"></script></body>
+</html>

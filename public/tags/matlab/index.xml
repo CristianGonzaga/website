@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>MATLAB - Etiqueta - Mi Portafolio - Cristian Gonzaga</title>
+        <link>https://github.com/CristianGonzaga/website/tags/matlab/</link>
+        <description>MATLAB - Etiqueta - Mi Portafolio - Cristian Gonzaga</description>
+        <generator>Hugo -- gohugo.io</generator><language>es</language><managingEditor>cristiangl2430@gmail.com (Cristian Gonzaga López)</managingEditor>
+            <webMaster>cristiangl2430@gmail.com (Cristian Gonzaga López)</webMaster><lastBuildDate>Mon, 16 Nov 2020 22:03:39 -0500</lastBuildDate><atom:link href="https://github.com/CristianGonzaga/website/tags/matlab/" rel="self" type="application/rss+xml" /><item>
+    <title>Introducción a la programación con MATLAB</title>
+    <link>https://github.com/CristianGonzaga/website/posts/introduction-to-programming-with-matlab/</link>
+    <pubDate>Mon, 16 Nov 2020 22:03:39 -0500</pubDate>
+    <author>Cristian Gonzaga</author>
+    <guid>https://github.com/CristianGonzaga/website/posts/introduction-to-programming-with-matlab/</guid>
+    <description><![CDATA[Enseña programación informática a quienes tienen poca o ninguna experiencia previa. Utiliza el sistema y lenguaje de programación llamado MATLAB. MATLAB es un lenguaje de propósito especial. Es una excelente opción para escribir programas de tamaño moderado que resuelven problemas que implican la manipulación de números, siendo utilizado en una amplia variedad de dominios desde las ciencias naturales, pasando por todas las disciplinas de la ingeniería, hasta las finanzas, y más allá, y se utiliza mucho en la industria.]]></description>
+</item>
+</channel>
+</rss>
