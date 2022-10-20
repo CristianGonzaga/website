@@ -1,16 +1,1 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>FEMSA Coca-Cola - Etiqueta - Mi Portafolio - Cristian Gonzaga</title>
-        <link>https://github.com/CristianGonzaga/website/tags/femsa-coca-cola/</link>
-        <description>FEMSA Coca-Cola - Etiqueta - Mi Portafolio - Cristian Gonzaga</description>
-        <generator>Hugo -- gohugo.io</generator><language>es</language><managingEditor>cristiangl2430@gmail.com (Cristian Gonzaga López)</managingEditor>
-            <webMaster>cristiangl2430@gmail.com (Cristian Gonzaga López)</webMaster><lastBuildDate>Fri, 22 Oct 2021 15:18:23 -0500</lastBuildDate><atom:link href="https://github.com/CristianGonzaga/website/tags/femsa-coca-cola/" rel="self" type="application/rss+xml" /><item>
-    <title>Optimización de Procesos. FEMSA Coca-Cola</title>
-    <link>https://github.com/CristianGonzaga/website/posts/optimizacion-de-procesos_femsa/</link>
-    <pubDate>Fri, 22 Oct 2021 15:18:23 -0500</pubDate>
-    <author>Cristian Gonzaga</author>
-    <guid>https://github.com/CristianGonzaga/website/posts/optimizacion-de-procesos_femsa/</guid>
-    <description><![CDATA[Se analizaron los datos de Femsa-Coca Cola de la producción en la planta de Altamira del 6/07/2021 al 30/07/21. Los datos fueron entregados por KOF en formato .csv (la primera versión) y en formato Excel (la segunda versión creada, con los datos transpuestos y sin datos faltantes). El objetivo del análisis fue desarollar un modelo que explique la relación entre la energía necesaria para la cadena de producción y diferentes variables con la finalidad de minimizar el uso de energía.]]></description>
-</item>
-</channel>
-</rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>FEMSA Coca-Cola - Etiqueta - Mi Portafolio - Cristian Gonzaga</title><link>https://github.com/CristianGonzaga/tags/femsa-coca-cola/</link><description>FEMSA Coca-Cola - Etiqueta - Mi Portafolio - Cristian Gonzaga</description><generator>Hugo -- gohugo.io</generator><language>es</language><managingEditor>cristiangl2430@gmail.com (Cristian Gonzaga López)</managingEditor><webMaster>cristiangl2430@gmail.com (Cristian Gonzaga López)</webMaster><lastBuildDate>Fri, 22 Oct 2021 15:18:23 -0500</lastBuildDate><atom:link href="https://github.com/CristianGonzaga/tags/femsa-coca-cola/" rel="self" type="application/rss+xml"/><item><title>Optimización de Procesos. FEMSA Coca-Cola</title><link>https://github.com/CristianGonzaga/posts/optimizacion-de-procesos_femsa/</link><pubDate>Fri, 22 Oct 2021 15:18:23 -0500</pubDate><author>Cristian Gonzaga</author><guid>https://github.com/CristianGonzaga/posts/optimizacion-de-procesos_femsa/</guid><description>Se analizaron los datos de Femsa-Coca Cola de la producción en la planta de Altamira del 6/07/2021 al 30/07/21. Los datos fueron entregados por KOF en formato .csv (la primera versión) y en formato Excel (la segunda versión creada, con los datos transpuestos y sin datos faltantes). El objetivo del análisis fue desarollar un modelo que explique la relación entre la energía necesaria para la cadena de producción y diferentes variables con la finalidad de minimizar el uso de energía.</description></item></channel></rss>

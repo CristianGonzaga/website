@@ -1,16 +1,1 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Sistema de Monitoreo Atmosférico - Etiqueta - Mi Portafolio - Cristian Gonzaga</title>
-        <link>https://github.com/CristianGonzaga/website/tags/sistema-de-monitoreo-atmosf%C3%A9rico/</link>
-        <description>Sistema de Monitoreo Atmosférico - Etiqueta - Mi Portafolio - Cristian Gonzaga</description>
-        <generator>Hugo -- gohugo.io</generator><language>es</language><managingEditor>cristiangl2430@gmail.com (Cristian Gonzaga López)</managingEditor>
-            <webMaster>cristiangl2430@gmail.com (Cristian Gonzaga López)</webMaster><lastBuildDate>Fri, 11 Jun 2021 22:20:12 -0500</lastBuildDate><atom:link href="https://github.com/CristianGonzaga/website/tags/sistema-de-monitoreo-atmosf%C3%A9rico/" rel="self" type="application/rss+xml" /><item>
-    <title>Los factores meteorológicos y la concentración de los contaminantes en la atmósfera</title>
-    <link>https://github.com/CristianGonzaga/website/posts/factores-meteorologicos_concentracion-de-los-contaminantes/</link>
-    <pubDate>Fri, 11 Jun 2021 22:20:12 -0500</pubDate>
-    <author>Cristian Gonzaga</author>
-    <guid>https://github.com/CristianGonzaga/website/posts/factores-meteorologicos_concentracion-de-los-contaminantes/</guid>
-    <description><![CDATA[El proyecto encontró la relación entre los factores meteorológicos y la contaminación. Los datos utilizados fueron proporcionados por el Sistema de Monitoreo Atmosférico de la Zona Metropolitana de la Ciudad de México. A partir de ellos, se eligió el software R para realizar una limpieza y ordenamiento de los mismos y posteriormente generar una regresión lineal y múltiple.]]></description>
-</item>
-</channel>
-</rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Sistema de Monitoreo Atmosférico - Etiqueta - Mi Portafolio - Cristian Gonzaga</title><link>https://github.com/CristianGonzaga/tags/sistema-de-monitoreo-atmosf%C3%A9rico/</link><description>Sistema de Monitoreo Atmosférico - Etiqueta - Mi Portafolio - Cristian Gonzaga</description><generator>Hugo -- gohugo.io</generator><language>es</language><managingEditor>cristiangl2430@gmail.com (Cristian Gonzaga López)</managingEditor><webMaster>cristiangl2430@gmail.com (Cristian Gonzaga López)</webMaster><lastBuildDate>Fri, 11 Jun 2021 22:20:12 -0500</lastBuildDate><atom:link href="https://github.com/CristianGonzaga/tags/sistema-de-monitoreo-atmosf%C3%A9rico/" rel="self" type="application/rss+xml"/><item><title>Los factores meteorológicos y la concentración de los contaminantes en la atmósfera</title><link>https://github.com/CristianGonzaga/posts/factores-meteorologicos_concentracion-de-los-contaminantes/</link><pubDate>Fri, 11 Jun 2021 22:20:12 -0500</pubDate><author>Cristian Gonzaga</author><guid>https://github.com/CristianGonzaga/posts/factores-meteorologicos_concentracion-de-los-contaminantes/</guid><description>El proyecto encontró la relación entre los factores meteorológicos y la contaminación. Los datos utilizados fueron proporcionados por el Sistema de Monitoreo Atmosférico de la Zona Metropolitana de la Ciudad de México. A partir de ellos, se eligió el software R para realizar una limpieza y ordenamiento de los mismos y posteriormente generar una regresión lineal y múltiple.</description></item></channel></rss>
