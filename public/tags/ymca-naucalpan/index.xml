@@ -1,1 +1,16 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>YMCA Naucalpan - Etiqueta - Mi Portafolio - Cristian Gonzaga</title><link>https://github.com/CristianGonzaga/tags/ymca-naucalpan/</link><description>YMCA Naucalpan - Etiqueta - Mi Portafolio - Cristian Gonzaga</description><generator>Hugo -- gohugo.io</generator><language>es</language><managingEditor>cristiangl2430@gmail.com (Cristian Gonzaga López)</managingEditor><webMaster>cristiangl2430@gmail.com (Cristian Gonzaga López)</webMaster><lastBuildDate>Fri, 30 Jul 2021 20:05:24 -0500</lastBuildDate><atom:link href="https://github.com/CristianGonzaga/tags/ymca-naucalpan/" rel="self" type="application/rss+xml"/><item><title>Pláticame un Libro o Cuento</title><link>https://github.com/CristianGonzaga/posts/pl%C3%A1ticame-un-libro-o-cuento/</link><pubDate>Fri, 30 Jul 2021 20:05:24 -0500</pubDate><author>Cristian Gonzaga</author><guid>https://github.com/CristianGonzaga/posts/pl%C3%A1ticame-un-libro-o-cuento/</guid><description>En México, no se tiene arraigado el hábito de la lectura, en especial con el avance tecnológico que acrecienta más esta problemática social. Para motivar a nuestra comunidad se pensó en motivar esta práctica a través de la experiencia del lector, no leyendo un cuento o un libro, sino platicar sobre la lectura y dejar en el espectador la curiosidad de saber más de la obra. De tal modo que el proyecto *Pláticame un Libro o Cuento* impulsado por el Centro de Desarrollo Comunitario YMCA Naucalpan busca desarrollar en niñas, niños y jóvenes el interés por la lectura al platicar sobre un tema a través de un video que transfiera la experiencia del lector.</description></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>YMCA Naucalpan - Etiqueta - Mi Portafolio - Cristian Gonzaga</title>
+        <link>http://example.org/tags/ymca-naucalpan/</link>
+        <description>YMCA Naucalpan - Etiqueta - Mi Portafolio - Cristian Gonzaga</description>
+        <generator>Hugo -- gohugo.io</generator><language>es</language><managingEditor>cristiangl2430@gmail.com (Cristian Gonzaga López)</managingEditor>
+            <webMaster>cristiangl2430@gmail.com (Cristian Gonzaga López)</webMaster><lastBuildDate>Fri, 30 Jul 2021 20:05:24 -0500</lastBuildDate><atom:link href="http://example.org/tags/ymca-naucalpan/" rel="self" type="application/rss+xml" /><item>
+    <title>Pláticame un Libro o Cuento</title>
+    <link>http://example.org/posts/pl%C3%A1ticame-un-libro-o-cuento/</link>
+    <pubDate>Fri, 30 Jul 2021 20:05:24 -0500</pubDate>
+    <author>Cristian Gonzaga</author>
+    <guid>http://example.org/posts/pl%C3%A1ticame-un-libro-o-cuento/</guid>
+    <description><![CDATA[En México, no se tiene arraigado el hábito de la lectura, en especial con el avance tecnológico que acrecienta más esta problemática social. Para motivar a nuestra comunidad se pensó en motivar esta práctica a través de la experiencia del lector, no leyendo un cuento o un libro, sino platicar sobre la lectura y dejar en el espectador la curiosidad de saber más de la obra. De tal modo que el proyecto *Pláticame un Libro o Cuento* impulsado por el Centro de Desarrollo Comunitario YMCA Naucalpan busca desarrollar en niñas, niños y jóvenes el interés por la lectura al platicar sobre un tema a través de un video que transfiera la experiencia del lector.]]></description>
+</item>
+</channel>
+</rss>

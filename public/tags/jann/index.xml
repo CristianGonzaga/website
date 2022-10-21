@@ -1,1 +1,16 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>JANN - Etiqueta - Mi Portafolio - Cristian Gonzaga</title><link>https://github.com/CristianGonzaga/tags/jann/</link><description>JANN - Etiqueta - Mi Portafolio - Cristian Gonzaga</description><generator>Hugo -- gohugo.io</generator><language>es</language><managingEditor>cristiangl2430@gmail.com (Cristian Gonzaga López)</managingEditor><webMaster>cristiangl2430@gmail.com (Cristian Gonzaga López)</webMaster><lastBuildDate>Fri, 18 Feb 2022 22:11:20 -0500</lastBuildDate><atom:link href="https://github.com/CristianGonzaga/tags/jann/" rel="self" type="application/rss+xml"/><item><title>Tutorías de matemáticas para defender a la Educación</title><link>https://github.com/CristianGonzaga/posts/tutor%C3%ADas-en-matem%C3%A1ticas-para-defender-a-la-educaci%C3%B3n/</link><pubDate>Fri, 18 Feb 2022 22:11:20 -0500</pubDate><author>Cristian Gonzaga</author><guid>https://github.com/CristianGonzaga/posts/tutor%C3%ADas-en-matem%C3%A1ticas-para-defender-a-la-educaci%C3%B3n/</guid><description>La pandemia de la COVID-19 provocó un rezago educativo en todo el país México. Se estima que los niños se verán rezagados hasta en dos grados escolares, mientras que más de 5 millones de infantes abandonarán el sistema escolar. De tal modo que el proyecto Tutorías en matemáticas para defender a la Educación busca otorgar educación de calidad a través de tutorías en línea de matemáticas a niños de primaria y secundaria.</description></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>JANN - Etiqueta - Mi Portafolio - Cristian Gonzaga</title>
+        <link>http://example.org/tags/jann/</link>
+        <description>JANN - Etiqueta - Mi Portafolio - Cristian Gonzaga</description>
+        <generator>Hugo -- gohugo.io</generator><language>es</language><managingEditor>cristiangl2430@gmail.com (Cristian Gonzaga López)</managingEditor>
+            <webMaster>cristiangl2430@gmail.com (Cristian Gonzaga López)</webMaster><lastBuildDate>Fri, 18 Feb 2022 22:11:20 -0500</lastBuildDate><atom:link href="http://example.org/tags/jann/" rel="self" type="application/rss+xml" /><item>
+    <title>Tutorías de matemáticas para defender a la Educación</title>
+    <link>http://example.org/posts/tutor%C3%ADas-en-matem%C3%A1ticas-para-defender-a-la-educaci%C3%B3n/</link>
+    <pubDate>Fri, 18 Feb 2022 22:11:20 -0500</pubDate>
+    <author>Cristian Gonzaga</author>
+    <guid>http://example.org/posts/tutor%C3%ADas-en-matem%C3%A1ticas-para-defender-a-la-educaci%C3%B3n/</guid>
+    <description><![CDATA[La pandemia de la COVID-19 provocó un rezago educativo en todo el país México. Se estima que los niños se verán rezagados hasta en dos grados escolares, mientras que más de 5 millones de infantes abandonarán el sistema escolar. De tal modo que el proyecto Tutorías en matemáticas para defender a la Educación busca otorgar educación de calidad a través de tutorías en línea de matemáticas a niños de primaria y secundaria.]]></description>
+</item>
+</channel>
+</rss>

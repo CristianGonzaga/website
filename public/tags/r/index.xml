@@ -1,1 +1,40 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>R - Etiqueta - Mi Portafolio - Cristian Gonzaga</title><link>https://github.com/CristianGonzaga/tags/r/</link><description>R - Etiqueta - Mi Portafolio - Cristian Gonzaga</description><generator>Hugo -- gohugo.io</generator><language>es</language><managingEditor>cristiangl2430@gmail.com (Cristian Gonzaga López)</managingEditor><webMaster>cristiangl2430@gmail.com (Cristian Gonzaga López)</webMaster><lastBuildDate>Mon, 21 Feb 2022 21:15:10 -0500</lastBuildDate><atom:link href="https://github.com/CristianGonzaga/tags/r/" rel="self" type="application/rss+xml"/><item><title>Programación en R</title><link>https://github.com/CristianGonzaga/posts/r-programming/</link><pubDate>Mon, 21 Feb 2022 21:15:10 -0500</pubDate><author>Cristian Gonzaga</author><guid>https://github.com/CristianGonzaga/posts/r-programming/</guid><description>El curso R Programming ofrecido por la Universidad Johns Hopkins e impartido por Roger D. Peng, Brian Caffo y Jeff Leek proporciona una orientación para aprender a programar en R y a utilizarlo para un análisis de datos eficaz.</description></item><item><title>Optimización de Procesos. FEMSA Coca-Cola</title><link>https://github.com/CristianGonzaga/posts/optimizacion-de-procesos_femsa/</link><pubDate>Fri, 22 Oct 2021 15:18:23 -0500</pubDate><author>Cristian Gonzaga</author><guid>https://github.com/CristianGonzaga/posts/optimizacion-de-procesos_femsa/</guid><description>Se analizaron los datos de Femsa-Coca Cola de la producción en la planta de Altamira del 6/07/2021 al 30/07/21. Los datos fueron entregados por KOF en formato .csv (la primera versión) y en formato Excel (la segunda versión creada, con los datos transpuestos y sin datos faltantes). El objetivo del análisis fue desarollar un modelo que explique la relación entre la energía necesaria para la cadena de producción y diferentes variables con la finalidad de minimizar el uso de energía.</description></item><item><title>Los factores meteorológicos y la concentración de los contaminantes en la atmósfera</title><link>https://github.com/CristianGonzaga/posts/factores-meteorologicos_concentracion-de-los-contaminantes/</link><pubDate>Fri, 11 Jun 2021 22:20:12 -0500</pubDate><author>Cristian Gonzaga</author><guid>https://github.com/CristianGonzaga/posts/factores-meteorologicos_concentracion-de-los-contaminantes/</guid><description>El proyecto encontró la relación entre los factores meteorológicos y la contaminación. Los datos utilizados fueron proporcionados por el Sistema de Monitoreo Atmosférico de la Zona Metropolitana de la Ciudad de México. A partir de ellos, se eligió el software R para realizar una limpieza y ordenamiento de los mismos y posteriormente generar una regresión lineal y múltiple.</description></item><item><title>Análisis de Genes Diferencialmente Expresados en el Cáncer de Colón</title><link>https://github.com/CristianGonzaga/posts/cancer-colon_genes-diferencialmente-expresados/</link><pubDate>Fri, 30 Apr 2021 21:54:43 -0500</pubDate><author>Cristian Gonzaga</author><guid>https://github.com/CristianGonzaga/posts/cancer-colon_genes-diferencialmente-expresados/</guid><description>Este proyecto identificó los genes involucrados en la formación de tejidos cancerosos, centrándose en los genes diferencialmente expresados en cáncer de colon en adultos de 50 a 60 años, aprovechando la inmensa cantidad de información encontrada en distintas bases de datos respecto al tema y del lenguaje de programación R.</description></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>R - Etiqueta - Mi Portafolio - Cristian Gonzaga</title>
+        <link>http://example.org/tags/r/</link>
+        <description>R - Etiqueta - Mi Portafolio - Cristian Gonzaga</description>
+        <generator>Hugo -- gohugo.io</generator><language>es</language><managingEditor>cristiangl2430@gmail.com (Cristian Gonzaga López)</managingEditor>
+            <webMaster>cristiangl2430@gmail.com (Cristian Gonzaga López)</webMaster><lastBuildDate>Mon, 21 Feb 2022 21:15:10 -0500</lastBuildDate><atom:link href="http://example.org/tags/r/" rel="self" type="application/rss+xml" /><item>
+    <title>Programación en R</title>
+    <link>http://example.org/posts/r-programming/</link>
+    <pubDate>Mon, 21 Feb 2022 21:15:10 -0500</pubDate>
+    <author>Cristian Gonzaga</author>
+    <guid>http://example.org/posts/r-programming/</guid>
+    <description><![CDATA[El curso R Programming ofrecido por la Universidad Johns Hopkins e impartido por Roger D. Peng, Brian Caffo y Jeff Leek proporciona una orientación para aprender a programar en R y a utilizarlo para un análisis de datos eficaz.]]></description>
+</item>
+<item>
+    <title>Optimización de Procesos. FEMSA Coca-Cola</title>
+    <link>http://example.org/posts/optimizacion-de-procesos_femsa/</link>
+    <pubDate>Fri, 22 Oct 2021 15:18:23 -0500</pubDate>
+    <author>Cristian Gonzaga</author>
+    <guid>http://example.org/posts/optimizacion-de-procesos_femsa/</guid>
+    <description><![CDATA[Se analizaron los datos de Femsa-Coca Cola de la producción en la planta de Altamira del 6/07/2021 al 30/07/21. Los datos fueron entregados por KOF en formato .csv (la primera versión) y en formato Excel (la segunda versión creada, con los datos transpuestos y sin datos faltantes). El objetivo del análisis fue desarollar un modelo que explique la relación entre la energía necesaria para la cadena de producción y diferentes variables con la finalidad de minimizar el uso de energía.]]></description>
+</item>
+<item>
+    <title>Los factores meteorológicos y la concentración de los contaminantes en la atmósfera</title>
+    <link>http://example.org/posts/factores-meteorologicos_concentracion-de-los-contaminantes/</link>
+    <pubDate>Fri, 11 Jun 2021 22:20:12 -0500</pubDate>
+    <author>Cristian Gonzaga</author>
+    <guid>http://example.org/posts/factores-meteorologicos_concentracion-de-los-contaminantes/</guid>
+    <description><![CDATA[El proyecto encontró la relación entre los factores meteorológicos y la contaminación. Los datos utilizados fueron proporcionados por el Sistema de Monitoreo Atmosférico de la Zona Metropolitana de la Ciudad de México. A partir de ellos, se eligió el software R para realizar una limpieza y ordenamiento de los mismos y posteriormente generar una regresión lineal y múltiple.]]></description>
+</item>
+<item>
+    <title>Análisis de Genes Diferencialmente Expresados en el Cáncer de Colón</title>
+    <link>http://example.org/posts/cancer-colon_genes-diferencialmente-expresados/</link>
+    <pubDate>Fri, 30 Apr 2021 21:54:43 -0500</pubDate>
+    <author>Cristian Gonzaga</author>
+    <guid>http://example.org/posts/cancer-colon_genes-diferencialmente-expresados/</guid>
+    <description><![CDATA[Este proyecto identificó los genes involucrados en la formación de tejidos cancerosos, centrándose en los genes diferencialmente expresados en cáncer de colon en adultos de 50 a 60 años, aprovechando la inmensa cantidad de información encontrada en distintas bases de datos respecto al tema y del lenguaje de programación R.]]></description>
+</item>
+</channel>
+</rss>

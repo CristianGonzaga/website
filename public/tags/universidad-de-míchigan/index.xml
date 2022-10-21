@@ -1,1 +1,40 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Universidad de Míchigan - Etiqueta - Mi Portafolio - Cristian Gonzaga</title><link>https://github.com/CristianGonzaga/tags/universidad-de-m%C3%ADchigan/</link><description>Universidad de Míchigan - Etiqueta - Mi Portafolio - Cristian Gonzaga</description><generator>Hugo -- gohugo.io</generator><language>es</language><managingEditor>cristiangl2430@gmail.com (Cristian Gonzaga López)</managingEditor><webMaster>cristiangl2430@gmail.com (Cristian Gonzaga López)</webMaster><lastBuildDate>Thu, 21 Jul 2022 20:25:23 -0500</lastBuildDate><atom:link href="https://github.com/CristianGonzaga/tags/universidad-de-m%C3%ADchigan/" rel="self" type="application/rss+xml"/><item><title>Ética en Ciencia de Datos</title><link>https://github.com/CristianGonzaga/posts/data-science-ethics/</link><pubDate>Thu, 21 Jul 2022 20:25:23 -0500</pubDate><author>Cristian Gonzaga</author><guid>https://github.com/CristianGonzaga/posts/data-science-ethics/</guid><description>El curso exploró el impacto de la ciencia de datos en la sociedad moderna y los principios de equidad, responsabilidad y transparencia. Además, examinó las implicaciones éticas y de privacidad de la recopilación y gestión de grandes conjuntos de datos. Finalmente, se hizo enfásis sobre a quién pertenecen los datos, cómo valorar la privacidad, cómo recibir el consentimiento informado y qué significa ser justo.</description></item><item><title>Uso de Python para acceder a datos web</title><link>https://github.com/CristianGonzaga/posts/using-python-to-access-web-data/</link><pubDate>Tue, 08 Sep 2020 15:40:09 -0500</pubDate><author>Cristian Gonzaga</author><guid>https://github.com/CristianGonzaga/posts/using-python-to-access-web-data/</guid><description>En el curso Using Python to Access Web Data, ofrecido por la Universidad de Míchigan e impartido por Charles Russell Severance, se cubre cómo se puede tratar a Internet como una fuente de datos. Se analizan y leen los datos de la web, así como el acceso a datos utilizando las API de la web. Además, se trabaja con formatos de datos HTML, XML y JSON.</description></item><item><title>Estructuras de datos de Python</title><link>https://github.com/CristianGonzaga/posts/python-data-structures/</link><pubDate>Sat, 05 Sep 2020 18:00:20 -0500</pubDate><author>Cristian Gonzaga</author><guid>https://github.com/CristianGonzaga/posts/python-data-structures/</guid><description>En el curso Python Data Structures, ofrecido por la Universidad de Míchigan e impartido por Charles Russell Severance, se cubre las principales estructuras de datos del lenguaje de programación Python. Además, aborda los fundamentos de la programación procedimental y cómo utilizar las estructuras de datos integradas en Python (como listas, diccionarios y tuplas) para realizar análisis de datos cada vez más complejos.</description></item><item><title>Programación para Todos (Introducción a Python)</title><link>https://github.com/CristianGonzaga/posts/programming-for-everybody/</link><pubDate>Thu, 03 Sep 2020 18:00:56 -0500</pubDate><author>Cristian Gonzaga</author><guid>https://github.com/CristianGonzaga/posts/programming-for-everybody/</guid><description>En el curso Programming for Everybody (Getting Started with Python), ofrecido por la Universidad de Míchigan e impartido por Charles Russell Severance, se cubre los fundamentos de programación utilizando Python. Se cubren los fundamentos de cómo construir un programa a partir de una serie de instrucciones simples. Dicho curso cubre Python 3.</description></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Universidad de Míchigan - Etiqueta - Mi Portafolio - Cristian Gonzaga</title>
+        <link>http://example.org/tags/universidad-de-m%C3%ADchigan/</link>
+        <description>Universidad de Míchigan - Etiqueta - Mi Portafolio - Cristian Gonzaga</description>
+        <generator>Hugo -- gohugo.io</generator><language>es</language><managingEditor>cristiangl2430@gmail.com (Cristian Gonzaga López)</managingEditor>
+            <webMaster>cristiangl2430@gmail.com (Cristian Gonzaga López)</webMaster><lastBuildDate>Thu, 21 Jul 2022 20:25:23 -0500</lastBuildDate><atom:link href="http://example.org/tags/universidad-de-m%C3%ADchigan/" rel="self" type="application/rss+xml" /><item>
+    <title>Ética en Ciencia de Datos</title>
+    <link>http://example.org/posts/data-science-ethics/</link>
+    <pubDate>Thu, 21 Jul 2022 20:25:23 -0500</pubDate>
+    <author>Cristian Gonzaga</author>
+    <guid>http://example.org/posts/data-science-ethics/</guid>
+    <description><![CDATA[El curso exploró el impacto de la ciencia de datos en la sociedad moderna y los principios de equidad, responsabilidad y transparencia. Además, examinó las implicaciones éticas y de privacidad de la recopilación y gestión de grandes conjuntos de datos. Finalmente, se hizo enfásis sobre a quién pertenecen los datos, cómo valorar la privacidad, cómo recibir el consentimiento informado y qué significa ser justo. ]]></description>
+</item>
+<item>
+    <title>Uso de Python para acceder a datos web</title>
+    <link>http://example.org/posts/using-python-to-access-web-data/</link>
+    <pubDate>Tue, 08 Sep 2020 15:40:09 -0500</pubDate>
+    <author>Cristian Gonzaga</author>
+    <guid>http://example.org/posts/using-python-to-access-web-data/</guid>
+    <description><![CDATA[En el curso Using Python to Access Web Data, ofrecido por la Universidad de Míchigan e impartido por Charles Russell Severance, se cubre cómo se puede tratar a Internet como una fuente de datos. Se analizan y leen los datos de la web, así como el acceso a datos utilizando las API de la web. Además, se trabaja con formatos de datos HTML, XML y JSON.]]></description>
+</item>
+<item>
+    <title>Estructuras de datos de Python</title>
+    <link>http://example.org/posts/python-data-structures/</link>
+    <pubDate>Sat, 05 Sep 2020 18:00:20 -0500</pubDate>
+    <author>Cristian Gonzaga</author>
+    <guid>http://example.org/posts/python-data-structures/</guid>
+    <description><![CDATA[En el curso Python Data Structures, ofrecido por la Universidad de Míchigan e impartido por Charles Russell Severance, se cubre las principales estructuras de datos del lenguaje de programación Python. Además, aborda los fundamentos de la programación procedimental y cómo utilizar las estructuras de datos integradas en Python (como listas, diccionarios y tuplas) para realizar análisis de datos cada vez más complejos.]]></description>
+</item>
+<item>
+    <title>Programación para Todos (Introducción a Python)</title>
+    <link>http://example.org/posts/programming-for-everybody/</link>
+    <pubDate>Thu, 03 Sep 2020 18:00:56 -0500</pubDate>
+    <author>Cristian Gonzaga</author>
+    <guid>http://example.org/posts/programming-for-everybody/</guid>
+    <description><![CDATA[En el curso Programming for Everybody (Getting Started with Python), ofrecido por la Universidad de Míchigan e impartido por Charles Russell Severance, se cubre los fundamentos de programación utilizando Python. Se cubren los fundamentos de cómo construir un programa a partir de una serie de instrucciones simples. Dicho curso cubre Python 3.]]></description>
+</item>
+</channel>
+</rss>

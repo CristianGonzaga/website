@@ -1,1 +1,24 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Excel - Etiqueta - Mi Portafolio - Cristian Gonzaga</title><link>https://github.com/CristianGonzaga/tags/excel/</link><description>Excel - Etiqueta - Mi Portafolio - Cristian Gonzaga</description><generator>Hugo -- gohugo.io</generator><language>es</language><managingEditor>cristiangl2430@gmail.com (Cristian Gonzaga López)</managingEditor><webMaster>cristiangl2430@gmail.com (Cristian Gonzaga López)</webMaster><lastBuildDate>Thu, 11 Aug 2022 17:21:54 -0500</lastBuildDate><atom:link href="https://github.com/CristianGonzaga/tags/excel/" rel="self" type="application/rss+xml"/><item><title>Métricas de negocio para empresas basadas en datos</title><link>https://github.com/CristianGonzaga/posts/business-metrics_data-driven-companies/</link><pubDate>Thu, 11 Aug 2022 17:21:54 -0500</pubDate><author>Cristian Gonzaga</author><guid>https://github.com/CristianGonzaga/posts/business-metrics_data-driven-companies/</guid><description>En el curso Business Metrics for Data-Driven Companies, ofrecido por la Universidad Duke e impartido por Daniel Egger, se imparten prácticas sobre cómo utilizar la analítica de datos para hacer que cualquier empresa sea más competitiva y más rentable, reconociendo las métricas empresariales más críticas y distinguirlas de los meros datos.</description></item><item><title>Fundamentos de Excel para Negocios</title><link>https://github.com/CristianGonzaga/posts/fundamentos-excel-para-negocios/</link><pubDate>Sun, 30 Aug 2020 22:55:30 -0500</pubDate><author>Cristian Gonzaga</author><guid>https://github.com/CristianGonzaga/posts/fundamentos-excel-para-negocios/</guid><description>En el curso Fundamentos de Excel para Negocios, ofrecido por la Universidad Austral e impartida por Jorge Ladrizabal y Paola Serafini, se resalta la aplicabilidad y utilización empresarial de Excel en el mundo de los negocios.</description></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Excel - Etiqueta - Mi Portafolio - Cristian Gonzaga</title>
+        <link>http://example.org/tags/excel/</link>
+        <description>Excel - Etiqueta - Mi Portafolio - Cristian Gonzaga</description>
+        <generator>Hugo -- gohugo.io</generator><language>es</language><managingEditor>cristiangl2430@gmail.com (Cristian Gonzaga López)</managingEditor>
+            <webMaster>cristiangl2430@gmail.com (Cristian Gonzaga López)</webMaster><lastBuildDate>Thu, 11 Aug 2022 17:21:54 -0500</lastBuildDate><atom:link href="http://example.org/tags/excel/" rel="self" type="application/rss+xml" /><item>
+    <title>Métricas de negocio para empresas basadas en datos</title>
+    <link>http://example.org/posts/business-metrics_data-driven-companies/</link>
+    <pubDate>Thu, 11 Aug 2022 17:21:54 -0500</pubDate>
+    <author>Cristian Gonzaga</author>
+    <guid>http://example.org/posts/business-metrics_data-driven-companies/</guid>
+    <description><![CDATA[En el curso Business Metrics for Data-Driven Companies, ofrecido por la Universidad Duke e impartido por Daniel Egger, se imparten prácticas sobre cómo utilizar la analítica de datos para hacer que cualquier empresa sea más competitiva y más rentable, reconociendo las métricas empresariales más críticas y distinguirlas de los meros datos.]]></description>
+</item>
+<item>
+    <title>Fundamentos de Excel para Negocios</title>
+    <link>http://example.org/posts/fundamentos-excel-para-negocios/</link>
+    <pubDate>Sun, 30 Aug 2020 22:55:30 -0500</pubDate>
+    <author>Cristian Gonzaga</author>
+    <guid>http://example.org/posts/fundamentos-excel-para-negocios/</guid>
+    <description><![CDATA[En el curso Fundamentos de Excel para Negocios, ofrecido por la Universidad Austral e impartida por Jorge Ladrizabal y Paola Serafini, se resalta la aplicabilidad y utilización empresarial de Excel en el mundo de los negocios.]]></description>
+</item>
+</channel>
+</rss>

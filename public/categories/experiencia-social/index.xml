@@ -1,1 +1,32 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Experiencia Social - Categoría - Mi Portafolio - Cristian Gonzaga</title><link>https://github.com/CristianGonzaga/categories/experiencia-social/</link><description>Experiencia Social - Categoría - Mi Portafolio - Cristian Gonzaga</description><generator>Hugo -- gohugo.io</generator><language>es</language><managingEditor>cristiangl2430@gmail.com (Cristian Gonzaga López)</managingEditor><webMaster>cristiangl2430@gmail.com (Cristian Gonzaga López)</webMaster><lastBuildDate>Fri, 29 Jul 2022 20:43:01 -0500</lastBuildDate><atom:link href="https://github.com/CristianGonzaga/categories/experiencia-social/" rel="self" type="application/rss+xml"/><item><title>Comparte tu Conocimiento</title><link>https://github.com/CristianGonzaga/posts/comparte-tu-conocimiento/</link><pubDate>Fri, 29 Jul 2022 20:43:01 -0500</pubDate><author>Cristian Gonzaga</author><guid>https://github.com/CristianGonzaga/posts/comparte-tu-conocimiento/</guid><description>En México, existe una gran deserción escolar a nivel preparatoria. Para preparar a los alumnos a tener un mejor puesto laboral, el proyecto Comparte tu Conocimiento impulsado por el H. Ayuntamiento de Atizapán de Zaragoza - Dirección de educación busca dar asesorías de las diferentes materias de preparatoria abierta a adultos y jóvenes del municipio.</description></item><item><title>Tutorías de matemáticas para defender a la Educación</title><link>https://github.com/CristianGonzaga/posts/tutor%C3%ADas-en-matem%C3%A1ticas-para-defender-a-la-educaci%C3%B3n/</link><pubDate>Fri, 18 Feb 2022 22:11:20 -0500</pubDate><author>Cristian Gonzaga</author><guid>https://github.com/CristianGonzaga/posts/tutor%C3%ADas-en-matem%C3%A1ticas-para-defender-a-la-educaci%C3%B3n/</guid><description>La pandemia de la COVID-19 provocó un rezago educativo en todo el país México. Se estima que los niños se verán rezagados hasta en dos grados escolares, mientras que más de 5 millones de infantes abandonarán el sistema escolar. De tal modo que el proyecto Tutorías en matemáticas para defender a la Educación busca otorgar educación de calidad a través de tutorías en línea de matemáticas a niños de primaria y secundaria.</description></item><item><title>Pláticame un Libro o Cuento</title><link>https://github.com/CristianGonzaga/posts/pl%C3%A1ticame-un-libro-o-cuento/</link><pubDate>Fri, 30 Jul 2021 20:05:24 -0500</pubDate><author>Cristian Gonzaga</author><guid>https://github.com/CristianGonzaga/posts/pl%C3%A1ticame-un-libro-o-cuento/</guid><description>En México, no se tiene arraigado el hábito de la lectura, en especial con el avance tecnológico que acrecienta más esta problemática social. Para motivar a nuestra comunidad se pensó en motivar esta práctica a través de la experiencia del lector, no leyendo un cuento o un libro, sino platicar sobre la lectura y dejar en el espectador la curiosidad de saber más de la obra. De tal modo que el proyecto *Pláticame un Libro o Cuento* impulsado por el Centro de Desarrollo Comunitario YMCA Naucalpan busca desarrollar en niñas, niños y jóvenes el interés por la lectura al platicar sobre un tema a través de un video que transfiera la experiencia del lector.</description></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Experiencia Social - Categoría - Mi Portafolio - Cristian Gonzaga</title>
+        <link>http://example.org/categories/experiencia-social/</link>
+        <description>Experiencia Social - Categoría - Mi Portafolio - Cristian Gonzaga</description>
+        <generator>Hugo -- gohugo.io</generator><language>es</language><managingEditor>cristiangl2430@gmail.com (Cristian Gonzaga López)</managingEditor>
+            <webMaster>cristiangl2430@gmail.com (Cristian Gonzaga López)</webMaster><lastBuildDate>Fri, 29 Jul 2022 20:43:01 -0500</lastBuildDate><atom:link href="http://example.org/categories/experiencia-social/" rel="self" type="application/rss+xml" /><item>
+    <title>Comparte tu Conocimiento</title>
+    <link>http://example.org/posts/comparte-tu-conocimiento/</link>
+    <pubDate>Fri, 29 Jul 2022 20:43:01 -0500</pubDate>
+    <author>Cristian Gonzaga</author>
+    <guid>http://example.org/posts/comparte-tu-conocimiento/</guid>
+    <description><![CDATA[En México, existe una gran deserción escolar a nivel preparatoria. Para preparar a los alumnos a tener un mejor puesto laboral, el proyecto Comparte tu Conocimiento impulsado por el H. Ayuntamiento de Atizapán de Zaragoza - Dirección de educación busca dar asesorías de las diferentes materias de preparatoria abierta a adultos y jóvenes del municipio.]]></description>
+</item>
+<item>
+    <title>Tutorías de matemáticas para defender a la Educación</title>
+    <link>http://example.org/posts/tutor%C3%ADas-en-matem%C3%A1ticas-para-defender-a-la-educaci%C3%B3n/</link>
+    <pubDate>Fri, 18 Feb 2022 22:11:20 -0500</pubDate>
+    <author>Cristian Gonzaga</author>
+    <guid>http://example.org/posts/tutor%C3%ADas-en-matem%C3%A1ticas-para-defender-a-la-educaci%C3%B3n/</guid>
+    <description><![CDATA[La pandemia de la COVID-19 provocó un rezago educativo en todo el país México. Se estima que los niños se verán rezagados hasta en dos grados escolares, mientras que más de 5 millones de infantes abandonarán el sistema escolar. De tal modo que el proyecto Tutorías en matemáticas para defender a la Educación busca otorgar educación de calidad a través de tutorías en línea de matemáticas a niños de primaria y secundaria.]]></description>
+</item>
+<item>
+    <title>Pláticame un Libro o Cuento</title>
+    <link>http://example.org/posts/pl%C3%A1ticame-un-libro-o-cuento/</link>
+    <pubDate>Fri, 30 Jul 2021 20:05:24 -0500</pubDate>
+    <author>Cristian Gonzaga</author>
+    <guid>http://example.org/posts/pl%C3%A1ticame-un-libro-o-cuento/</guid>
+    <description><![CDATA[En México, no se tiene arraigado el hábito de la lectura, en especial con el avance tecnológico que acrecienta más esta problemática social. Para motivar a nuestra comunidad se pensó en motivar esta práctica a través de la experiencia del lector, no leyendo un cuento o un libro, sino platicar sobre la lectura y dejar en el espectador la curiosidad de saber más de la obra. De tal modo que el proyecto *Pláticame un Libro o Cuento* impulsado por el Centro de Desarrollo Comunitario YMCA Naucalpan busca desarrollar en niñas, niños y jóvenes el interés por la lectura al platicar sobre un tema a través de un video que transfiera la experiencia del lector.]]></description>
+</item>
+</channel>
+</rss>

@@ -1,27 +1,221 @@
-<!doctype html><html lang=es><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=robots content="noodp"><title>Programación para Todos (Introducción a Python) - Mi Portafolio - Cristian Gonzaga</title><meta name=Description content="En el curso Programming for Everybody (Getting Started with Python), ofrecido por la Universidad de Míchigan e impartido por Charles Russell Severance, se cubre los fundamentos de programación utilizando Python. Se cubren los fundamentos de cómo construir un programa a partir de una serie de instrucciones simples. Dicho curso cubre Python 3."><meta property="og:title" content="Programación para Todos (Introducción a Python)"><meta property="og:description" content="En el curso Programming for Everybody (Getting Started with Python), ofrecido por la Universidad de Míchigan e impartido por Charles Russell Severance, se cubre los fundamentos de programación utilizando Python. Se cubren los fundamentos de cómo construir un programa a partir de una serie de instrucciones simples. Dicho curso cubre Python 3."><meta property="og:type" content="article"><meta property="og:url" content="https://github.com/CristianGonzaga/posts/programming-for-everybody/"><meta property="og:image" content="https://github.com/logo.png"><meta property="article:section" content="posts"><meta property="article:published_time" content="2020-09-03T18:00:56-05:00"><meta property="article:modified_time" content="2022-10-03T18:00:56-05:00"><meta property="og:site_name" content="Mi Portafolio - Cristian Gonzaga"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://github.com/logo.png"><meta name=twitter:title content="Programación para Todos (Introducción a Python)"><meta name=twitter:description content="En el curso Programming for Everybody (Getting Started with Python), ofrecido por la Universidad de Míchigan e impartido por Charles Russell Severance, se cubre los fundamentos de programación utilizando Python. Se cubren los fundamentos de cómo construir un programa a partir de una serie de instrucciones simples. Dicho curso cubre Python 3."><meta name=application-name content="Data Science"><meta name=apple-mobile-web-app-title content="Data Science"><meta name=theme-color content="#ffffff"><meta name=msapplication-TileColor content="#da532c"><link rel="shortcut icon" type=image/x-icon href=/favicon.ico><link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=mask-icon href=/safari-pinned-tab.svg color=#5bbad5><link rel=manifest href=/site.webmanifest><link rel=canonical href=https://github.com/CristianGonzaga/posts/programming-for-everybody/><link rel=prev href=https://github.com/CristianGonzaga/posts/fundamentos-excel-para-negocios/><link rel=next href=https://github.com/CristianGonzaga/posts/python-data-structures/><link rel=stylesheet href=/CristianGonzaga/css/style.min.css><link rel=preload href=https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css as=style onload='this.onload=null,this.rel="stylesheet"'><noscript><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css></noscript><link rel=preload href=https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css as=style onload='this.onload=null,this.rel="stylesheet"'><noscript><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css></noscript><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","headline":"Programación para Todos (Introducción a Python)","inLanguage":"es","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/github.com\/CristianGonzaga\/posts\/programming-for-everybody\/"},"genre":"posts","keywords":"Universidad de Míchigan, Python","wordcount":215,"url":"https:\/\/github.com\/CristianGonzaga\/posts\/programming-for-everybody\/","datePublished":"2020-09-03T18:00:56-05:00","dateModified":"2022-10-03T18:00:56-05:00","publisher":{"@type":"Organization","name":""},"author":{"@type":"Person","name":"Cristian Gonzaga"},"description":"En el curso Programming for Everybody (Getting Started with Python), ofrecido por la Universidad de Míchigan e impartido por Charles Russell Severance, se cubre los fundamentos de programación utilizando Python. Se cubren los fundamentos de cómo construir un programa a partir de una serie de instrucciones simples. Dicho curso cubre Python 3."}</script></head><body data-header-desktop=fixed data-header-mobile=auto><script type=text/javascript>(window.localStorage&&localStorage.getItem("theme")?localStorage.getItem("theme")==="dark":"auto"==="auto"?window.matchMedia("(prefers-color-scheme: dark)").matches:"auto"==="dark")&&document.body.setAttribute("theme","dark")</script><div id=mask></div><div class=wrapper><header class=desktop id=header-desktop><div class=header-wrapper><div class=header-title><a href=/CristianGonzaga/ title="Mi Portafolio - Cristian Gonzaga">Portafolio</a></div><div class=menu><div class=menu-inner><a class=menu-item href=/CristianGonzaga/posts/>Posts </a><a class=menu-item href=/CristianGonzaga/categories/>Categorías </a><a class=menu-item href=/CristianGonzaga/about/>Acerca de mí </a><span class="menu-item delimiter"></span><span class="menu-item search" id=search-desktop>
-<input type=text placeholder="Busca títulos o contenido..." id=search-input-desktop>
-<a href=javascript:void(0); class="search-button search-toggle" id=search-toggle-desktop title=Buscar><i class="fas fa-search fa-fw" aria-hidden=true></i></a>
-<a href=javascript:void(0); class="search-button search-clear" id=search-clear-desktop title=Limpiar><i class="fas fa-times-circle fa-fw" aria-hidden=true></i></a>
-<span class="search-button search-loading" id=search-loading-desktop><i class="fas fa-spinner fa-fw fa-spin" aria-hidden=true></i></span>
-</span><a href=javascript:void(0); class="menu-item theme-switch" title="Cambia el tema"><i class="fas fa-adjust fa-fw" aria-hidden=true></i>
-</a><a href=javascript:void(0); class="menu-item language" title="Selecciona el lenguage"><i class="fa fa-globe" aria-hidden=true></i>
-<select class=language-select id=language-select-desktop onchange="location=this.value"><option value=/CristianGonzaga/posts/programming-for-everybody/ selected>Español</option><option value=/CristianGonzaga/en/posts/programming-for-everybody/>English</option></select></a></div></div></div></header><header class=mobile id=header-mobile><div class=header-container><div class=header-wrapper><div class=header-title><a href=/CristianGonzaga/ title="Mi Portafolio - Cristian Gonzaga">Portafolio</a></div><div class=menu-toggle id=menu-toggle-mobile><span></span><span></span><span></span></div></div><div class=menu id=menu-mobile><div class=search-wrapper><div class="search mobile" id=search-mobile><input type=text placeholder="Busca títulos o contenido..." id=search-input-mobile>
-<a href=javascript:void(0); class="search-button search-toggle" id=search-toggle-mobile title=Buscar><i class="fas fa-search fa-fw" aria-hidden=true></i></a>
-<a href=javascript:void(0); class="search-button search-clear" id=search-clear-mobile title=Limpiar><i class="fas fa-times-circle fa-fw" aria-hidden=true></i></a>
-<span class="search-button search-loading" id=search-loading-mobile><i class="fas fa-spinner fa-fw fa-spin" aria-hidden=true></i></span></div><a href=javascript:void(0); class=search-cancel id=search-cancel-mobile>Cancelar</a></div><a class=menu-item href=/CristianGonzaga/posts/ title>Posts</a><a class=menu-item href=/CristianGonzaga/categories/ title>Categorías</a><a class=menu-item href=/CristianGonzaga/about/ title>Acerca de mí</a><a href=javascript:void(0); class="menu-item theme-switch" title="Cambia el tema">
-<i class="fas fa-adjust fa-fw" aria-hidden=true></i>
-</a><a href=javascript:void(0); class=menu-item title="Selecciona el lenguage"><i class="fa fa-globe fa-fw" aria-hidden=true></i>
-<select class=language-select onchange="location=this.value"><option value=/CristianGonzaga/posts/programming-for-everybody/ selected>Español</option><option value=/CristianGonzaga/en/posts/programming-for-everybody/>English</option></select></a></div></div></header><div class="search-dropdown desktop"><div id=search-dropdown-desktop></div></div><div class="search-dropdown mobile"><div id=search-dropdown-mobile></div></div><main class=main><div class=container><div class=toc id=toc-auto><h2 class=toc-title>Contenido</h2><div class="toc-content always-active" id=toc-content-auto></div></div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Programación para Todos (Introducción a Python)</h1><div class=post-meta><div class=post-meta-line><span class=post-author><a href=/CristianGonzaga/ title=Author rel=author class=author><i class="fas fa-user-circle fa-fw" aria-hidden=true></i>Cristian Gonzaga</a></span>&nbsp;<span class=post-category>incluido en <a href=/CristianGonzaga/categories/certificados/><i class="far fa-folder fa-fw" aria-hidden=true></i>Certificados</a></span></div><div class=post-meta-line><i class="far fa-calendar-alt fa-fw" aria-hidden=true></i>&nbsp;<time datetime=2020-09-03>2020-09-03</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden=true></i>&nbsp;215 palabras&nbsp;
-<i class="far fa-clock fa-fw" aria-hidden=true></i>&nbsp;2 minutos&nbsp;</div></div><div class="details toc" id=toc-static data-kept><div class="details-summary toc-title"><span>Contenido</span>
-<span><i class="details-icon fas fa-angle-right" aria-hidden=true></i></span></div><div class="details-content toc-content" id=toc-content-static><nav id=TableOfContents><ul><li><a href=#acerca-del-curso>Acerca del curso</a></li><li><a href=#programa>Programa</a><ul><li><a href=#semana-1>Semana 1</a></li><li><a href=#semana-2>Semana 2</a></li><li><a href=#semana-3>Semana 3</a></li><li><a href=#semana-4>Semana 4</a></li><li><a href=#semana-5>Semana 5</a></li><li><a href=#semana-6>Semana 6</a></li><li><a href=#semana-7>Semana 7</a></li></ul></li></ul></nav></div></div><div class=content id=content><h2 id=acerca-del-curso>Acerca del curso</h2><p>En el curso <em>Programming for Everybody (Getting Started with Python)</em>,
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Programación para Todos (Introducción a Python) - Mi Portafolio - Cristian Gonzaga</title><meta name="Description" content="En el curso Programming for Everybody (Getting Started with Python), ofrecido por la Universidad de Míchigan e impartido por Charles Russell Severance, se cubre los fundamentos de programación utilizando Python. Se cubren los fundamentos de cómo construir un programa a partir de una serie de instrucciones simples. Dicho curso cubre Python 3."><meta property="og:title" content="Programación para Todos (Introducción a Python)" />
+<meta property="og:description" content="En el curso Programming for Everybody (Getting Started with Python), ofrecido por la Universidad de Míchigan e impartido por Charles Russell Severance, se cubre los fundamentos de programación utilizando Python. Se cubren los fundamentos de cómo construir un programa a partir de una serie de instrucciones simples. Dicho curso cubre Python 3." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/programming-for-everybody/" /><meta property="og:image" content="http://example.org/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2020-09-03T18:00:56-05:00" />
+<meta property="article:modified_time" content="2022-10-03T18:00:56-05:00" /><meta property="og:site_name" content="Mi Portafolio - Cristian Gonzaga" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="http://example.org/logo.png"/>
+
+<meta name="twitter:title" content="Programación para Todos (Introducción a Python)"/>
+<meta name="twitter:description" content="En el curso Programming for Everybody (Getting Started with Python), ofrecido por la Universidad de Míchigan e impartido por Charles Russell Severance, se cubre los fundamentos de programación utilizando Python. Se cubren los fundamentos de cómo construir un programa a partir de una serie de instrucciones simples. Dicho curso cubre Python 3."/>
+<meta name="application-name" content="Data Science">
+<meta name="apple-mobile-web-app-title" content="Data Science"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://example.org/posts/programming-for-everybody/" /><link rel="prev" href="http://example.org/posts/fundamentos-excel-para-negocios/" /><link rel="next" href="http://example.org/posts/python-data-structures/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Programación para Todos (Introducción a Python)",
+        "inLanguage": "es",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/example.org\/posts\/programming-for-everybody\/"
+        },"genre": "posts","keywords": "Universidad de Míchigan, Python","wordcount":  215 ,
+        "url": "http:\/\/example.org\/posts\/programming-for-everybody\/","datePublished": "2020-09-03T18:00:56-05:00","dateModified": "2022-10-03T18:00:56-05:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Cristian Gonzaga"
+            },"description": "En el curso Programming for Everybody (Getting Started with Python), ofrecido por la Universidad de Míchigan e impartido por Charles Russell Severance, se cubre los fundamentos de programación utilizando Python. Se cubren los fundamentos de cómo construir un programa a partir de una serie de instrucciones simples. Dicho curso cubre Python 3."
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Mi Portafolio - Cristian Gonzaga">Portafolio</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/categories/"> Categorías </a><a class="menu-item" href="/about/"> Acerca de mí </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Buscar">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a><a href="javascript:void(0);" class="menu-item language" title="Selecciona el lenguage">
+                    <i class="fa fa-globe" aria-hidden="true"></i>                      
+                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/posts/programming-for-everybody/" selected>Español</option><option value="/en/posts/programming-for-everybody/">English</option></select>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Mi Portafolio - Cristian Gonzaga">Portafolio</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Buscar">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancelar
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/categories/" title="">Categorías</a><a class="menu-item" href="/about/" title="">Acerca de mí</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="Selecciona el lenguage">
+                    <i class="fa fa-globe fa-fw" aria-hidden="true"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/posts/programming-for-everybody/" selected>Español</option><option value="/en/posts/programming-for-everybody/">English</option></select>
+                </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contenido</h2>
+            <div class="toc-content always-active" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Programación para Todos (Introducción a Python)</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Cristian Gonzaga</a></span>&nbsp;<span class="post-category">incluido en <a href="/categories/certificados/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Certificados</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2020-09-03">2020-09-03</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;215 palabras&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;2 minutos&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contenido</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#acerca-del-curso">Acerca del curso</a></li>
+    <li><a href="#programa">Programa</a>
+      <ul>
+        <li><a href="#semana-1">Semana 1</a></li>
+        <li><a href="#semana-2">Semana 2</a></li>
+        <li><a href="#semana-3">Semana 3</a></li>
+        <li><a href="#semana-4">Semana 4</a></li>
+        <li><a href="#semana-5">Semana 5</a></li>
+        <li><a href="#semana-6">Semana 6</a></li>
+        <li><a href="#semana-7">Semana 7</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h2 id="acerca-del-curso">Acerca del curso</h2>
+<p>En el curso <em>Programming for Everybody (Getting Started with Python)</em>,
 ofrecido por la <strong>Universidad de Míchigan</strong> e impartido por <strong>Charles
 Russell Severance</strong>, se cubre los fundamentos de programación utilizando
 Python. Se cubren los fundamentos de cómo construir un programa a partir
-de una serie de instrucciones simples. Dicho curso cubre Python 3.</p><p>Ver <a href="https://www.coursera.org/account/accomplishments/verify/JEECQ55UX6Z8?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" target=_blank rel="noopener noreffer">certificado</a></p><h2 id=programa>Programa</h2><p>Los contenidos de aprendizaje fueron impartidos durante 7 semanas.</p><h3 id=semana-1>Semana 1</h3><ul><li><strong>¿Por qué programamos? (capítulo 1)</strong></li></ul><p>Exploración de las implicaciones de desarrollar programas.</p><h3 id=semana-2>Semana 2</h3><ul><li><strong>Instalación y uso de Python</strong></li></ul><p>Configuración del sistema para escribir programas en Python.</p><h3 id=semana-3>Semana 3</h3><ul><li><strong>¿Por qué programamos? (Continuación)</strong></li></ul><p>Panorama general de la programación.</p><h3 id=semana-4>Semana 4</h3><ul><li><strong>Variables y expresiones (capítulo 2)</strong></li></ul><p>Explicación de cómo un programa utiliza la memoria del ordenador para
-almacenar, recuperar y calcular información.</p><h3 id=semana-5>Semana 5</h3><ul><li><strong>Condicionales (capítulo 3)</strong></li></ul><p>Avance del código secuencial (que simplemente ejecuta una línea de código
+de una serie de instrucciones simples. Dicho curso cubre Python 3.</p>
+<p>Ver <a href="https://www.coursera.org/account/accomplishments/verify/JEECQ55UX6Z8?utm_source=link&amp;utm_medium=certificate&amp;utm_content=cert_image&amp;utm_campaign=sharing_cta&amp;utm_product=course" target="_blank" rel="noopener noreffer ">certificado</a></p>
+<h2 id="programa">Programa</h2>
+<p>Los contenidos de aprendizaje fueron impartidos durante 7 semanas.</p>
+<h3 id="semana-1">Semana 1</h3>
+<ul>
+<li><strong>¿Por qué programamos? (capítulo 1)</strong></li>
+</ul>
+<p>Exploración de las implicaciones de desarrollar programas.</p>
+<h3 id="semana-2">Semana 2</h3>
+<ul>
+<li><strong>Instalación y uso de Python</strong></li>
+</ul>
+<p>Configuración del sistema para escribir programas en Python.</p>
+<h3 id="semana-3">Semana 3</h3>
+<ul>
+<li><strong>¿Por qué programamos? (Continuación)</strong></li>
+</ul>
+<p>Panorama general de la programación.</p>
+<h3 id="semana-4">Semana 4</h3>
+<ul>
+<li><strong>Variables y expresiones (capítulo 2)</strong></li>
+</ul>
+<p>Explicación de cómo un programa utiliza la memoria del ordenador para
+almacenar, recuperar y calcular información.</p>
+<h3 id="semana-5">Semana 5</h3>
+<ul>
+<li><strong>Condicionales (capítulo 3)</strong></li>
+</ul>
+<p>Avance del código secuencial (que simplemente ejecuta una línea de código
 tras otra) al código condicional (en el que se saltan algunos pasos) de acuerdo
-a la toma de decisiones.</p><h3 id=semana-6>Semana 6</h3><ul><li><strong>Funciones (capítulo 4)</strong></li></ul><p>Explicación de qué son las funciones y cómo se pueden utilizar, siendo una forma
-esencial de todo código.</p><h3 id=semana-7>Semana 7</h3><ul><li><strong>Bucles e iteraciones (capítulo 5)</strong></li></ul><p>Explicación de los bucles y la iteración para que se repita una instrucción
-de manera repetitiva hasta completar su cometido.</p></div><div class=post-footer id=post-footer><div class=post-info><div class=post-info-line><div class=post-info-mod><span>Actualizado el 2022-10-03</span></div></div><div class=post-info-line><div class=post-info-md></div><div class=post-info-share><span></span></div></div></div><div class=post-info-more><section class=post-tags><i class="fas fa-tags fa-fw" aria-hidden=true></i>&nbsp;<a href=/CristianGonzaga/tags/universidad-de-m%C3%ADchigan/>Universidad de Míchigan</a>,&nbsp;<a href=/CristianGonzaga/tags/python/>Python</a></section><section><span><a href=javascript:void(0); onclick=window.history.back()>Regresar</a></span>&nbsp;|&nbsp;<span><a href=/CristianGonzaga/>Inicio</a></span></section></div><div class=post-nav><a href=/CristianGonzaga/posts/fundamentos-excel-para-negocios/ class=prev rel=prev title="Fundamentos de Excel para Negocios"><i class="fas fa-angle-left fa-fw" aria-hidden=true></i>Fundamentos de Excel para Negocios</a>
-<a href=/CristianGonzaga/posts/python-data-structures/ class=next rel=next title="Estructuras de datos de Python">Estructuras de datos de Python<i class="fas fa-angle-right fa-fw" aria-hidden=true></i></a></div></div></article></div></main><footer class=footer><div class=footer-container><div class=footer-line>Con la tecnología de <a href=https://gohugo.io/ target=_blank rel="noopener noreffer" title="Hugo 0.101.0">Hugo</a> | Tema - <a href=https://github.com/dillonzq/LoveIt target=_blank rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden=true></i> LoveIt</a></div><div class=footer-line itemscope itemtype=http://schema.org/CreativeWork><span class=author itemprop=copyrightHolder>&nbsp;<a href=/CristianGonzaga/ target=_blank>Cristian Gonzaga López</a></span></div></div></footer></div><div id=fixed-buttons><a href=# id=back-to-top class=fixed-button title="Volver arriba"><i class="fas fa-arrow-up fa-fw" aria-hidden=true></i>
-</a><a href=# id=view-comments class=fixed-button title="Ver comentarios"><i class="fas fa-comment fa-fw" aria-hidden=true></i></a></div><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery-bundle.min.css><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css><script type=text/javascript src=https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js></script><script type=text/javascript src=/CristianGonzaga/lib/lunr/lunr.stemmer.support.min.js></script><script type=text/javascript src=/CristianGonzaga/lib/lunr/lunr.es.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/lightgallery.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/thumbnail/lg-thumbnail.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/zoom/lg-zoom.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/copy-tex.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/mhchem.min.js></script><script type=text/javascript>window.config={code:{copyTitle:"Copiar al portapapeles",maxShownLines:50},comment:{},lightgallery:!0,math:{delimiters:[{display:!0,left:"$$",right:"$$"},{display:!0,left:"\\[",right:"\\]"},{display:!0,left:"\\begin{equation}",right:"\\end{equation}"},{display:!0,left:"\\begin{equation*}",right:"\\end{equation*}"},{display:!0,left:"\\begin{align}",right:"\\end{align}"},{display:!0,left:"\\begin{align*}",right:"\\end{align*}"},{display:!0,left:"\\begin{alignat}",right:"\\end{alignat}"},{display:!0,left:"\\begin{alignat*}",right:"\\end{alignat*}"},{display:!0,left:"\\begin{gather}",right:"\\end{gather}"},{display:!0,left:"\\begin{CD}",right:"\\end{CD}"},{display:!1,left:"$",right:"$"},{display:!1,left:"\\(",right:"\\)"}],strict:!1},search:{highlightTag:"em",lunrIndexURL:"/CristianGonzaga/index.json",lunrLanguageCode:"es",maxResultLength:10,noResultsFound:"No se encontraron resultados",snippetLength:30,type:"lunr"}}</script><script type=text/javascript src=/CristianGonzaga/js/theme.min.js></script></body></html>
+a la toma de decisiones.</p>
+<h3 id="semana-6">Semana 6</h3>
+<ul>
+<li><strong>Funciones (capítulo 4)</strong></li>
+</ul>
+<p>Explicación de qué son las funciones y cómo se pueden utilizar, siendo una forma
+esencial de todo código.</p>
+<h3 id="semana-7">Semana 7</h3>
+<ul>
+<li><strong>Bucles e iteraciones (capítulo 5)</strong></li>
+</ul>
+<p>Explicación de los bucles y la iteración para que se repita una instrucción
+de manera repetitiva hasta completar su cometido.</p></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Actualizado el 2022-10-03</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/universidad-de-m%C3%ADchigan/">Universidad de Míchigan</a>,&nbsp;<a href="/tags/python/">Python</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Regresar</a></span>&nbsp;|&nbsp;<span><a href="/">Inicio</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/posts/fundamentos-excel-para-negocios/" class="prev" rel="prev" title="Fundamentos de Excel para Negocios"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Fundamentos de Excel para Negocios</a>
+            <a href="/posts/python-data-structures/" class="next" rel="next" title="Estructuras de datos de Python">Estructuras de datos de Python<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Con la tecnología de <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.101.0">Hugo</a> | Tema - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Cristian Gonzaga López</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Volver arriba">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="Ver comentarios">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery-bundle.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.es.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/copy-tex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copiar al portapapeles","maxShownLines":50},"comment":{},"lightgallery":true,"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"es","maxResultLength":10,"noResultsFound":"No se encontraron resultados","snippetLength":30,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

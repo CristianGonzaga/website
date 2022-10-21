@@ -1,1 +1,16 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>H. Ayuntamiento de Atizapán de Zaragoza - Etiqueta - Mi Portafolio - Cristian Gonzaga</title><link>https://github.com/CristianGonzaga/tags/h.-ayuntamiento-de-atizap%C3%A1n-de-zaragoza/</link><description>H. Ayuntamiento de Atizapán de Zaragoza - Etiqueta - Mi Portafolio - Cristian Gonzaga</description><generator>Hugo -- gohugo.io</generator><language>es</language><managingEditor>cristiangl2430@gmail.com (Cristian Gonzaga López)</managingEditor><webMaster>cristiangl2430@gmail.com (Cristian Gonzaga López)</webMaster><lastBuildDate>Fri, 29 Jul 2022 20:43:01 -0500</lastBuildDate><atom:link href="https://github.com/CristianGonzaga/tags/h.-ayuntamiento-de-atizap%C3%A1n-de-zaragoza/" rel="self" type="application/rss+xml"/><item><title>Comparte tu Conocimiento</title><link>https://github.com/CristianGonzaga/posts/comparte-tu-conocimiento/</link><pubDate>Fri, 29 Jul 2022 20:43:01 -0500</pubDate><author>Cristian Gonzaga</author><guid>https://github.com/CristianGonzaga/posts/comparte-tu-conocimiento/</guid><description>En México, existe una gran deserción escolar a nivel preparatoria. Para preparar a los alumnos a tener un mejor puesto laboral, el proyecto Comparte tu Conocimiento impulsado por el H. Ayuntamiento de Atizapán de Zaragoza - Dirección de educación busca dar asesorías de las diferentes materias de preparatoria abierta a adultos y jóvenes del municipio.</description></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>H. Ayuntamiento de Atizapán de Zaragoza - Etiqueta - Mi Portafolio - Cristian Gonzaga</title>
+        <link>http://example.org/tags/h.-ayuntamiento-de-atizap%C3%A1n-de-zaragoza/</link>
+        <description>H. Ayuntamiento de Atizapán de Zaragoza - Etiqueta - Mi Portafolio - Cristian Gonzaga</description>
+        <generator>Hugo -- gohugo.io</generator><language>es</language><managingEditor>cristiangl2430@gmail.com (Cristian Gonzaga López)</managingEditor>
+            <webMaster>cristiangl2430@gmail.com (Cristian Gonzaga López)</webMaster><lastBuildDate>Fri, 29 Jul 2022 20:43:01 -0500</lastBuildDate><atom:link href="http://example.org/tags/h.-ayuntamiento-de-atizap%C3%A1n-de-zaragoza/" rel="self" type="application/rss+xml" /><item>
+    <title>Comparte tu Conocimiento</title>
+    <link>http://example.org/posts/comparte-tu-conocimiento/</link>
+    <pubDate>Fri, 29 Jul 2022 20:43:01 -0500</pubDate>
+    <author>Cristian Gonzaga</author>
+    <guid>http://example.org/posts/comparte-tu-conocimiento/</guid>
+    <description><![CDATA[En México, existe una gran deserción escolar a nivel preparatoria. Para preparar a los alumnos a tener un mejor puesto laboral, el proyecto Comparte tu Conocimiento impulsado por el H. Ayuntamiento de Atizapán de Zaragoza - Dirección de educación busca dar asesorías de las diferentes materias de preparatoria abierta a adultos y jóvenes del municipio.]]></description>
+</item>
+</channel>
+</rss>
