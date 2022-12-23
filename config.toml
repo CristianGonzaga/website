@@ -524,9 +524,13 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
   # Analytics config
   [params.analytics]
-    enable = false
-
-
+    enable = true
+    # Google Analytics
+    [params.analytics.google]
+      id = "G-QFJ899XCEX"
+      # whether to anonymize IP
+      # 是否匿名化用户 IP
+      anonymizeIP = true
 
 [markup]
   # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
