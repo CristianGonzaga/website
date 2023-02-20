@@ -15,7 +15,7 @@ specialization, one is ready to design and create efficient and effective relati
 databases, fill them with data, and work with them using SQL."
 
 tags: ["University of Colorado Boulder","Data Science","Database"]
-categories: ["Certificates"]
+categories: ["Specialization Certificates"]
 
 lightgallery: true
 

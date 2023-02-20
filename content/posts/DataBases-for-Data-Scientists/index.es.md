@@ -16,7 +16,7 @@ está preparado para diseñar y crear bases de datos relacionales (eficientes y 
 aunado a manipularlas utilizando SQL."
 
 tags: ["Universidad de Colorado Boulder","Ciencia de Datos","Bases de Datos"]
-categories: ["Certificados"]
+categories: ["Certificados Especializados"]
 
 lightgallery: true
 
